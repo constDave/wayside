@@ -1,0 +1,129 @@
+/* html tags */
+*{
+  font-family: "Montserrat", sans-serif;
+}
+strong{
+  color: #717171;
+}
+/* ID's and Classes */
+.row{
+  padding-right: 0;
+  margin-right: 0 !important;
+}
+
+#title{
+  background-color: #ffecc0;
+}
+
+#footer {
+  background-color: #474747;
+  color: white;
+  padding: 1rem;
+}
+/* NAVBAR */
+.nav-link{
+  color: #ff8f56;
+}
+
+.nav-link:hover{
+  color: #ff5959;
+}
+.navbar-brand{
+  margin-bottom: -1rem;
+}
+
+.navbar-item{
+  font-size: larger;
+}
+
+.subtitle{
+  margin-left: 1.5rem;
+}
+
+/* MENU */
+#menu {
+  padding: 3rem 0;
+  background-color: #f3f5ef;
+}
+
+.menu-title {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.menu-item {
+  padding: 0 2rem;
+}
+
+.menu-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+/*  ABOUT */
+#about{
+  background-color: #3e3e3e;
+  color: white;
+  padding: 1rem;
+}
+
+.about {
+  padding: 2rem;
+}
+/* CARDS */
+.card{
+  margin-bottom: 2rem;
+}
+.card-text {
+  padding: 1rem;
+}
+
+.card-title{
+  background-color: #474747;
+  color: white;
+}
+
+/* LOCATION */
+
+#location{
+  background-image: linear-gradient(#f69f36, #fab441);
+  color: white;
+  margin: 0;
+  padding: 1rem;
+}
+
+/* font awesome icons */
+.fab{
+  font-size: xx-large;
+}
+
+.fa-instagram{
+  color: black;
+}
+
+/*  responsive */
+
+@media (max-width: 600px){
+  .call {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 400px){
+  .navbar-brand{
+    margin-right: 0 !important;
+
+  }
+  .navbar{
+    padding: 0 !important;
+  }
+}
+
+@media (min-width: 1000px){
+  .trailer-image {
+height:600px !important;
+
+  }
+}
+
+.trailer-image{
+  border-radius: 20px;
+}
