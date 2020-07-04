@@ -1,6 +1,7 @@
 /* html tags */
 *{
   font-family: "Montserrat", sans-serif;
+  list-style: none;
 }
 strong{
   color: #717171;
