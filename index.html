@@ -30,8 +30,15 @@
 </head>
 <section id="title">
 
-
+<!-- Modal for clicking on menu images -->
   <body>
+    <div id="myModal" class="modal">
+      <span class="close ex">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+<!-- End of modal -->
+
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand" href="http://waysideatx.com">
@@ -123,7 +130,7 @@
     <div class="col-lg-4 text-center menu-column">
       <div class="card">
         <h3 class="card-title menu-title">Buffalo Sandwich $10.50</h3>
-        <img src="images/buffalo.jpg" alt="" class="img-fluid menu-item card-img-top">
+        <img src="images/buffalo.jpg" alt="Buffalo Sandwich" class="img-fluid menu-item card-img-top">
         <strong class="card-text">Lettuce, tomatoes, avocado, peppercorn-bacon, provolone & chedder cheese</strong>
       </div>
 
@@ -134,12 +141,12 @@
       </div>
       <div class="card">
         <h3 class="menu-title card-title">Wayside Burger $10.50</h3>
-        <img src="images/burger.jpg" alt="" class="img-fluid menu-item card-img-top">
+        <img src="images/burger.jpg" alt="Wayside Burger" class="img-fluid menu-item card-img-top">
         <strong class="card-text">Grilled seasoned patty with sauteed jalepeño kraut, grilled jalepeños, grilled mushrooms, tomatoes, mayo, provolone & chedder cheese</strong>
       </div>
       <div class="card">
         <h3 class="menu-title card-title">Onion Rings $7</h3>
-        <img src="images/onion_rings.jpg" alt="" class="img-fluid menu-item card-img-top">
+        <img src="images/onion_rings.jpg" alt="Onion Rings" class="img-fluid menu-item card-img-top">
         <strong class="card-text">Homemade battered onion rings served with ranch</strong>
       </div>
 
@@ -149,24 +156,20 @@
       <div class="card">
 
         <h3 class="menu-title card-title">Pulled Pork Loaded Fries $10.50</h3>
-        <img src="images/pulled_pork_loaded_fries.jpg" alt="" class="img-fluid menu-item card-img-top">
+        <img src="images/pulled_pork_loaded_fries.jpg" alt="Pulled pork loaded fries" class="img-fluid menu-item card-img-top">
         <strong class="card-text">Pulled pork, grilled onions, provolone & Chedder cheese, honey BBQ</strong>
 
       </div>
-      <div class="card">
-        <h3 class="card-title menu-title">The Cobb $9.25</h3>
-        <img src="images/cobb.jpg" alt="" class="img-fluid menu-item card-img-top">
-        <strong class="card-text">Grilled of fried chicken, peppercorn-bacon, avocado, bleu cheese crumbles, sundried tomatoes, 1/4 waffle garnish, with your choice of ranch or balsalmic dressing</strong>
-      </div>
+
       <div class="card">
         <h3 class="card-title menu-title">Loaded Waffle Fries $9.75</h3>
-        <img src="images/loaded.jpg" alt="" class="img-fluid menu-item card-img-top">
+        <img src="images/loaded.jpg" alt="Loaded Waffle Fries" class="img-fluid menu-item card-img-top">
         <strong class="card-text">Waffle fries, chorizo, peppercorn-bacon, jalepeno kraut, grilled jalepeños, and provolone cheese</strong>
       </div>
 
       <div class="card">
         <h3 class="card-title menu-title">Wayside Chicken & Waffle $9.25</h3>
-        <img src="images/chicken_waffle.jpg" alt="" class="img-fluid menu-item card-img-top">
+        <img src="images/chicken_waffle.jpg" alt="Wayside Chicken & Waffle" class="img-fluid menu-item card-img-top">
         <strong class="card-text">One classic styled Belgium waffle, with our crispy hand-battered fried chicken, with a side of maple syrup</strong>
       </div>
 
@@ -175,13 +178,13 @@
         <div class="col-lg-4 menu-column">
                 <div class="card">
                   <h3 class="card-title menu-title">Pulled Pork Sandwich $10.50</h3>
-                  <img src="images/pork.jpg" alt="" class="img-fluid menu-item card-img-top">
+                  <img src="images/pork.jpg" alt="Pulled Pork Sandwich" class="img-fluid menu-item card-img-top">
                   <strong class="card-text">Pulled pork, grilled onions, provolone & chedder, honey BBQ</strong>
                 </div>
 
           <div class="card">
             <h3 class="card-title menu-title">Dr. Porkenstein $8.50</h3>
-            <img src="images/porkenstein.jpeg" alt="" class="img-fluid menu-item card-img-top">
+            <img src="images/porkenstein.jpeg" alt="Dr. Porkenstein" class="img-fluid menu-item card-img-top">
             <strong class="card-text">Bacon & syrup waffle batter, Hashbrown, Honey glazed pork, provolone, and egg</strong>
           </div>
           <div class="card">
@@ -189,11 +192,7 @@
             <img src="images/blt.jpg" alt="Wayside BLT Sandwich" class="img-fluid menu-item card-img-top">
             <strong class="card-text">Peppercorn-bacon, lettuce, tomatoes, and chipotle mayo</strong>
           </div>
-          <div class="card">
-            <h3 class="card-title menu-title">Vegan Grilled Cheese $14.50</h3>
-            <img src="images/vegan.jpg" alt="" class="img-fluid menu-item card-img-top">
-            <strong class="card-text">Portobello mushrooms, tomato cayenne cheese, spring mix, tomatoes, avocado, balsamic reduction </strong>
-          </div>
+
           
         </div>
 
@@ -205,13 +204,13 @@
                
             <div class="card">
               <h3 class="menu-title card-title">Wayside Pork Taco $4</h3>
-              <img src="images/pork_taco.jpg" alt="" class="img-fluid menu-item card-img-top">
+              <img src="images/pork_taco.jpg" alt="Wayside Pork Taco" class="img-fluid menu-item card-img-top">
               <strong class="card-text">Honey glazed pulled pork, Grilled onion, Provolone, Chedder, Honey BBQ</strong>
             </div>
                
             <div class="card">
               <h3 class="menu-title card-title">Chicken Mole Taco $4</h3>
-              <img src="images/mole_taco.jpg" alt="" class="img-fluid menu-item card-img-top">
+              <img src="images/mole_taco.jpg" alt="Chicken Mole Taco" class="img-fluid menu-item card-img-top">
               <strong class="card-text">Onion ring, Chedder, Provolone, and Avocado
               </strong>
             </div>
@@ -225,13 +224,13 @@
           
                 <div class="card">
                   <h3 class="card-title menu-title">Wayside burger taco $4</h3>
-                  <img src="images/burger_taco.jpg" alt="" class="img-fluid menu-item card-img-top">
+                  <img src="images/burger_taco.jpg" alt="Wayside burger taco" class="img-fluid menu-item card-img-top">
                   <strong class="card-text">Ground beef, Mushroom, Jalepeño Krout, Tomato, Chedder, Provolone, Spicy Mayo</strong>
                 </div>
 
                 <div class="card">
                   <h3 class="card-title menu-title">Breakfast Tacos $1.50</h3>
-                  <img src="images/breakfast_tacos.jpg" alt="" class="img-fluid menu-item card-img-top">
+                  <img src="images/breakfast_tacos.jpg" alt="Breakfast Tacos" class="img-fluid menu-item card-img-top">
                   <strong class="card-text">Bacon/egg/cheese, Hashbrown/egg/cheese, Chorizo/egg/cheese, Egg/cheese</strong>
                 </div>
           
@@ -241,13 +240,13 @@
                
                 <div class="card">
                   <h3 class="card-title menu-title">Wayside Buffalo Taco $4</h3>
-                  <img src="images/buffalo_taco.jpg" alt="Wayside BLT Sandwich" class="img-fluid menu-item card-img-top">
+                  <img src="images/buffalo_taco.jpg" alt="Wayside Buffalo Taco" class="img-fluid menu-item card-img-top">
                   <strong class="card-text">Fried chicken, Bacon, Avocado, Tomato, Provolone, Chedder, Spicy BBQ sauce</strong>
                 </div>
 
                 <div class="card">
                   <h3 class="card-title menu-title">Pork and Beef Breakfast Taco $2.25</h3>
-                  <img src="images/pork_breakfast.jpg" alt="Wayside BLT Sandwich" class="img-fluid menu-item card-img-top">
+                  <img src="images/pork_breakfast.jpg" alt="Pork and Beef Breakfast Taco" class="img-fluid menu-item card-img-top">
                   <strong class="card-text">Pulled pork, ground beef, egg, and cheese</strong>
                 </div>
 
@@ -317,6 +316,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 
 </html>

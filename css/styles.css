@@ -54,11 +54,67 @@ strong{
 
 .menu-item {
   padding: 0 2rem;
+  border-radius: 5px;
+}
+.menu-item:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .menu-column{
   padding: 3% 2%;
   text-align: center;
+}
+
+/* Modal image */
+
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  overflow:auto; /*enable scroll if needed*/
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal-content {
+  margin: auto;
+  display:block;
+  width:90%;
+  max-width: 1000px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 1000px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+
+
+@media only screen and (max-width: 700px){
+  .modal-content{
+    width:100%;
+  }
 }
 /*  ABOUT */
 #about{
@@ -127,4 +183,21 @@ height:600px !important;
 
 .trailer-image{
   border-radius: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: white !important;
+  font-size: 60px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 40px;
 }
