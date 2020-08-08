@@ -41,8 +41,6 @@ strong {
   margin-left: 1.5rem;
 }
 
-
-
 /* MENU */
 #menu {
   padding: 3rem 0;
@@ -154,6 +152,10 @@ strong {
   font-size: 40px;
 }
 
+.menu-title-main {
+  color: #6d3f08;
+}
+
 /* Modal image */
 
 .modal {
@@ -209,10 +211,13 @@ strong {
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
   }
+  #order-button {
+    width: 100%;
+  }
 }
 #order-button {
   margin: 15px 0;
-  background-color:#ff8f56;
-  color:white;
+  background-color: #ff8f56;
+  color: white;
   font-family: Montserrat;
 }
