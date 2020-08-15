@@ -211,8 +211,9 @@ strong {
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
   }
-  #order-button {
+  #order-button{
     width: 100%;
+    
   }
 }
 #order-button {
