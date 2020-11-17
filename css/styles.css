@@ -12,6 +12,28 @@ strong {
   margin-right: 0 !important;
 }
 
+.landing-page {
+  background: rgb(255, 143, 86);
+  background: linear-gradient(
+    167deg,
+    rgba(255, 143, 86, 1) 0%,
+    rgba(255, 166, 0, 1) 35%
+  );
+  height: 100vh;
+}
+.about-text {
+  background-color: rgba(0,0,0, 0.1);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+
+@media only screen and (min-width: 600px) {
+  #wayside-logo {
+  max-width: 40%;
+}
+}
+
 #title {
   background-color: #ffecc0;
 }
@@ -211,9 +233,8 @@ strong {
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
   }
-  #order-button{
+  #order-button {
     width: 100%;
-    
   }
 }
 #order-button {

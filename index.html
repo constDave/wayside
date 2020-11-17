@@ -1,319 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-131012846-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131012846-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      gtag("config", "UA-131012846-1");
+    </script>
 
-  gtag('config', 'UA-131012846-1');
-</script>
+    <link rel="icon" href="images/favicon.png" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  <link rel="icon" href="images/favicon.png">
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!--font awesome  -->
 
-  <!--font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
+      integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h"
+      crossorigin="anonymous"
+    />
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-
-  <title>Wayside</title>
-</head>
-<section id="title">
-
-<!-- Modal for clicking on menu images -->
+    <title>Wayside</title>
+  </head>
   <body>
-    <div id="myModal" class="modal">
-      <span class="close ex">&times;</span>
-      <img class="modal-content" id="img01" style="background-color: rgba(0, 0, 0, 0.9);">
-      <div id="caption"></div>
-    </div>
-<!-- End of modal -->
-
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" href="http://waysideatx.com">
-          <img src="images/favicon.png" alt="Wayside Logo" style="width:250px; height:100px;">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar nav ml-auto">
-            <li class="navbar-item">
-              <a href="#about" class="nav-link">About Wayside</a>
-            </li>
-            <li class="navbar-item">
-              <a href="./second-location.html" class="nav-link">The Lucky Duck location</a>
-            </li>
-            <li class="navbar-item"><a href="#hours" class="nav-link">Hours</a></li>
-            <li class="navbar-item">
-              <a href="https://orders.knowtifyd.com/menu/wayside" class="nav-link">Menu</a>
-            </li>
-            <li class="navbar-item">
-              <a href="#location" class="nav-link">Map</a>
-            </li>
-            <li class="navbar-item">
-              <a href="#footer" class="nav-link">Contact</a>
-            </li>
-
-          </ul>
+    <div class="container-fluid landing-page">
+      <div class="row">
+        <div class="col mt-4 text-center">
+          <img id="wayside-logo"class="img-fluid" src="images/wayside_logo_landing.png" alt="" />
         </div>
       </div>
 
+      <div class="container about-text">
 
-    <div class="row">
-      <div class="col-lg-12">
-        <h5 class="subtitle">Giving people the waffle they want</h5>
-
-      </div>
-    </div>
-
-</section>
-
-<section id="banner" class="text-center" style="background-color: #3e3e3e;">
-
-<div class="alert alert-danger alert-dismissible fade show" role="alert">
-  <strong>Please note: Now open at the Lucky Duck Bar! We'll be back at Backlot on the 15th</strong><button type="button" class="close text-dark" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
-  
-<div class="container">
-      <a id="order-button" class="btn btn-lg order-button" href="https://orders.knowtifyd.com/menu/wayside"
-        role="button">Online Ordering</a>
-
-  <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" >
-    <a  id="order-button" class="btn btn-lg order-button" href="https://orders.knowtifyd.com/menu/wayside" role="button">Online Ordering</a>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/new_items.jpg" alt="Great dishes at Wayside in Austin" class="img-fluid d-block d-block 100">
-      </div>
-      <div class="carousel-item">
-        <img src="images/group.jpg" alt="Great dishes at Wayside in Austin" class="img-fluid d-block d-block w-100">
-      </div>
-      <div class="carousel-item">
-        <img src="images/wayside_food.jpg" alt="Great dishes at Wayside in Austin" class="img-fluid d-block d-block w-100">
-      </div>
-
-    </div>
-    
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    
-  </div> -->
-
-
-
-
-</section>
-</div>
-
-<section id="about" >
-  <h1 class="text-center">About Wayside</h1>
-  <div class="row">
-    <div class="col-lg-12 text-center">
-      <h4 class="about"> We're the bright yellow food truck behind the Back Lot bar. At Wayside, waffles aren't just for breakfast anymore. Our menu has something for everyone, from hand battered chicken, sweet carpese waffles, spicy buffalo sandwiches, and your new favorite burger. We are the waffle that you wanted, what all the other waffles promised.
-        <br><br>
-      Find us at 606 Maiden Ln next to Backlot bar and 1300 E. 6th at The Lucky Duck!
-      </h4>
-      <img src="images/trailer.jpg" alt="Outside view of the Wayside food truck" class="img-fluid text-center trailer-image">
-    </div>
-  </div>
-
-</section>
-
-<section id="menu">
-  <h1 class="text-center menu-title-main"><i class="fas fa-stroopwafel"></i>
- Backlot Menu</h1>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-lg-4 text-center menu-column">
-      <div class="card">
-        <h3 class="card-title menu-title">Buffalo Sandwich</h3>
-        <img src="images/buffalo.jpg" alt="Buffalo Sandwich" class="img-fluid menu-item card-img-top">
-        <strong class="card-text">Lettuce, tomatoes, avocado, peppercorn-bacon, provolone & chedder cheese</strong>
-      </div>
-
-      <div class="card">
-         <h3 class="menu-title card-title">The Pins</h3>
-        <img src="images/thepins.jpg" alt="Wayside the Pins" class="img-fluid menu-item card-img-top">
-        <strong class="card-text">Grilled seasoned patty with chorizo, peppercorn-bacon, hashbrowns, chipotle mayo, pepper jack cheese, topped with grilled jalepeños and a fried egg</strong>
-      </div>
-      <div class="card">
-        <h3 class="menu-title card-title">Wayside Burger</h3>
-        <img src="images/burger.jpg" alt="Wayside Burger" class="img-fluid menu-item card-img-top">
-        <strong class="card-text">Grilled seasoned patty with sauteed jalepeño kraut, grilled jalepeños, grilled mushrooms, tomatoes, mayo, provolone & chedder cheese</strong>
-      </div>
-    
-
-    </div>
-
-    <div class="col-lg-4 text-center menu-column">
-      <div class="card">
-
-        <h3 class="menu-title card-title">Pulled Pork Loaded Fries</h3>
-        <img src="images/pulled_pork_loaded_fries.jpg" alt="Pulled pork loaded fries" class="img-fluid menu-item card-img-top">
-        <strong class="card-text">Pulled pork, grilled onions, provolone & Chedder cheese, honey BBQ</strong>
-
-      </div>
-
-      <div class="card">
-        <h3 class="card-title menu-title">Loaded Waffle Fries</h3>
-        <img src="images/loaded.jpg" alt="Loaded Waffle Fries" class="img-fluid menu-item card-img-top">
-        <strong class="card-text">Waffle fries, chorizo, peppercorn-bacon, jalepeno kraut, grilled jalepeños, and provolone cheese</strong>
-      </div>
-
-      <div class="card">
-        <h3 class="card-title menu-title">Wayside Chicken & Waffle</h3>
-        <img src="images/chicken_waffle.jpg" alt="Wayside Chicken & Waffle" class="img-fluid menu-item card-img-top">
-        <strong class="card-text">One classic styled Belgium waffle, with our crispy hand-battered fried chicken, with a side of maple syrup</strong>
-      </div>
-
-    </div>
-
-        <div class="col-lg-4 menu-column">
-                <div class="card">
-                  <h3 class="card-title menu-title">Pulled Pork Sandwich</h3>
-                  <img src="images/pork.jpg" alt="Pulled Pork Sandwich" class="img-fluid menu-item card-img-top">
-                  <strong class="card-text">Pulled pork, grilled onions, provolone & chedder, honey BBQ</strong>
-                </div>
-
-          <div class="card">
-            <h3 class="card-title menu-title">Dr. Porkenstein</h3>
-            <img src="images/porkenstein.jpeg" alt="Dr. Porkenstein" class="img-fluid menu-item card-img-top">
-            <strong class="card-text">Bacon & syrup waffle batter, Hashbrown, Honey glazed pork, provolone, and egg</strong>
-          </div>
-          <div class="card">
-            <h3 class="card-title menu-title">B.L.T.</h3>
-            <img src="images/blt.jpg" alt="Wayside BLT Sandwich" class="img-fluid menu-item card-img-top">
-            <strong class="card-text">Peppercorn-bacon, lettuce, tomatoes, and chipotle mayo</strong>
-          </div>
-
-          
-        </div>
-
-          <section id="tacos">
-          <div class="container-fluid">
-            <h1 class="text-center">Tacos</h1>
             <div class="row">
-              <div class="col-lg-4 text-center menu-column">
-               
-
-               
-                <div class="card">
-                  <h3 class="card-title menu-title">Pork or Beef Breakfast Taco</h3>
-                  <img src="images/pork_breakfast.jpg" alt="Pork and Beef Breakfast Taco" class="img-fluid menu-item card-img-top">
-                  <strong class="card-text">Pulled pork, ground beef, egg, and cheese</strong>
-                </div>
-
-
-          
-              </div>
-          
-              <div class="col-lg-4 text-center menu-column">
-               
-          
+              <div class="col-lg-12 text-center text-white">
+                <h4 class="about"> At Wayside, waffles aren't just for breakfast anymore. We are the waffle that you
+                  wanted, what all the other waffles promised.
+                  <br><br>
+                  Find us at 606 Maiden Ln next to Backlot bar and 1300 E. 6th at The Lucky Duck!
+                </h4>
             
-
-                <div class="card">
-                  <h3 class="card-title menu-title">Breakfast Tacos</h3>
-                  <img src="images/breakfast_tacos.jpg" alt="Breakfast Tacos" class="img-fluid menu-item card-img-top">
-                  <strong class="card-text">Bacon/egg/cheese, Hashbrown/egg/cheese, Chorizo/egg/cheese, Egg/cheese</strong>
-                </div>
-          
               </div>
+      </div>
+
+
+      <div class="row text-center d-flex ">
+        <div class="col-md-3 mt-3"></div>
+        <div class="col-md-3 mt-3">
+          <a href="./luckyduck.html"><button class="btn btn-lg btn-outline-light ">Lucky Duck</button></a>
+        </div>
+        <div class="col-md-3 mt-3">
+          <a href="./backlot.html"><button class="btn btn-lg btn-outline-light ">Backlot Bar</button></a>
           
-              <div class="col-lg-4 menu-column">
-               
-                <div class="card">
-                  <h3 class="card-title menu-title">Wayside Buffalo Taco</h3>
-                  <img src="images/buffalo_taco.jpg" alt="Wayside Buffalo Taco" class="img-fluid menu-item card-img-top">
-                  <strong class="card-text">Fried chicken, Bacon, Avocado, Tomato, Provolone, Chedder, Spicy BBQ sauce</strong>
-                </div>
+        </div>
+        <div class="col-md-3 mt-3"></div>
+      </div>
 
-
-
-          
-              </div>
-              </section>
-
+      <div class="row">
+        <div class="col text-center">
+          <a href="https://www.instagram.com/wayside6/"><i class="fab m-4 fa-instagram text-white"></i></a>
+          <a href="https://www.facebook.com/wayside.austin"><i class="fab m-4 fa-facebook text-white "></i></a></div>
         
 
 
-
-    <div class="col-lg-12 text-center">
-      <h3 class="menu-title" style="margin:0;">Sides</h3>
-      <strong>Waffle Fries (sm/lg) | Hashbrown patty | Onion Rings</strong>
-     
+          
+      </div>
     </div>
-  </div>
-  </div>
-</section>
 
-<section id="location">
-  <h1 class="location text-center">Location</h1>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-lg-12 text-center">
-      <h4>We're located at 606 Maiden Ln behind the Backlot bar</h4>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.724440691555!2d-97.74154608507165!3d30.30190541331934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644ca7e534c8627%3A0xc4e8029eea07c175!2s606+Maiden+Ln%2C+Austin%2C+TX+78705!5e0!3m2!1sen!2sus!4v1544411389585"
-        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-  </div>
-
-
-</section>
-
-
-<footer id="footer">
-  <div class="container-fluid">
-    <h1 class="text-center">Give us a shout</h1>
-  <div class="row">
-    <div class="col-lg-6 text-center">
-
-      <h5 class="call"><i class="fas fa-phone-square"></i> Text or call in an order <a href="tel:+1-512-831-9900">512-831-9900</a></h5>
-      <h5 class="mail"><i class="fas fa-envelope"></i> wayside1986@yahoo.com</h5>
-
-    </div>
-    <div class="col-lg-6 text-center">
-      <h4 id="hours"><i class="far fa-clock"></i> Hours</h4>
-      <h6><ul>
-        <li>Mon-Fri 8-11am & 6pm-midnight</li>
-        <li>Saturday 6pm-midnight</li>
-        <li>Sunday Closed</li>
-      </ul></h6>
-      <a href="https://www.facebook.com/wayside.austin"><i class="fab fa-facebook"></i></a>
-      <a href="https://www.instagram.com/wayside6/"><i class="fab fa-instagram"></i></a>
-    </div>
-  </div>
-  </div>
-</footer>
-</div>
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="js/script.js"></script>
-</body>
-
+   </div>
+   </body>
 </html>
