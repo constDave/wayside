@@ -1,11 +1,52 @@
 /* html tags */
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   list-style: none;
 }
+
+body {
+  background: rgb(249, 238, 218);
+}
+
 strong {
   color: #717171;
 }
+
+/* typography */
+.testimonial {
+  color: #F9EEDA;
+  padding: 1rem;
+}
+
+/* LAYOUT */
+
+.wayside-logo {
+  max-width: 200px;
+  margin-bottom: 2rem ;
+}
+
+#title {
+  background: #e46544;
+}
+
+.header,
+.subtitle-container,
+.menu-container {
+  max-width: 1800px;
+}
+
+.carousel-container {
+  height: 75vh;
+  padding: 2rem;
+}
+
+@media (min-width: 500px) {
+  .carousel-container {
+    height: 25vh;
+    padding: 2rem;
+  }
+}
+
 /* ID's and Classes */
 .row {
   padding-right: 0;
@@ -13,14 +54,17 @@ strong {
 }
 
 .landing-page {
-  background: rgb(255, 143, 86);
-  background: linear-gradient(
-    167deg,
-    rgba(255, 143, 86, 1) 0%,
-    rgba(255, 166, 0, 1) 35%
-  );
-  height: 100vh;
+  background: #F9EEDA;
+  padding-bottom: 1rem;
+  
 }
+
+@media (min-width: 500px) {
+  .landing-page {
+    height: 100vh;
+  }
+}
+
 .about-text {
   background-color: rgba(0,0,0, 0.1);
   padding: 1rem;
@@ -45,12 +89,16 @@ strong {
 }
 /* NAVBAR */
 .nav-link {
-  color: #ff8f56;
+  color: #E46544;
+  font-weight: bolder;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link:focus {
   color: #ff5959;
+  border-bottom: 2px solid #E46544;
+  margin-bottom: 0.75rem;
 }
+
 .navbar-brand {
   margin-bottom: -1rem;
 }
@@ -66,7 +114,7 @@ strong {
 /* MENU */
 #menu {
   padding: 3rem 0;
-  background-color: #f3f5ef;
+  background-color: #F9EEDA;
 }
 
 .menu-title {
@@ -98,6 +146,7 @@ strong {
 
 .about {
   padding: 2rem;
+  color: #15150E;
 }
 /* CARDS */
 .card {
@@ -115,8 +164,8 @@ strong {
 /* LOCATION */
 
 #location {
-  background-image: linear-gradient(#f69f36, #fab441);
-  color: white;
+  background: #EDD41B;
+  color: #15150E;
   margin: 0;
   padding: 1rem;
 }
@@ -237,9 +286,22 @@ strong {
     width: 100%;
   }
 }
+
 #order-button {
   margin: 15px 0;
-  background-color: #ff8f56;
+  background-color: #E46544;
   color: white;
   font-family: Montserrat;
 }
+
+#order-button:hover {
+  background-color: #ff5959;
+}
+
+@media (max-width: 500px) {
+  .navbar li{
+    width: 100%;
+    text-align: center;
+  }
+}
+
