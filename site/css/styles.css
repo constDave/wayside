@@ -6,6 +6,8 @@
 
 body {
   background: rgb(249, 238, 218);
+  font-size: 1.125rem;
+  line-height: 1.6;
 }
 
 strong {
@@ -91,6 +93,9 @@ strong {
 .nav-link {
   color: #E46544;
   font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -120,6 +125,9 @@ strong {
 .menu-title {
   margin-top: 1.5rem;
   text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  
 }
 
 .menu-item {
