@@ -22,10 +22,7 @@ strong {
 
 /* LAYOUT */
 
-.wayside-logo {
-  max-width: 200px;
-  margin-bottom: 2rem ;
-}
+
 
 #title {
   background: #e46544;
@@ -42,14 +39,14 @@ strong {
 }
 
 .carousel-container {
-  height: 75vh;
+  height: 100%;
   padding: 2rem;
-  
+    
 }
 
 @media (min-width: 500px) {
   .carousel-container {
-    height: 25vh;
+    
     padding: 2rem;
     
     
@@ -240,6 +237,11 @@ strong {
 
 .menu-title-main {
   color: #6d3f08;
+}
+
+.wayside-logo {
+  max-width: 200px;
+  margin-bottom: 2rem ;
 }
 
 /* Modal image */
