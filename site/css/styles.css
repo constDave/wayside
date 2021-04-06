@@ -137,6 +137,7 @@ strong {
 .menu-item {
   padding: 0 2rem;
   border-radius: 5px;
+  
 }
 .menu-item:hover {
   opacity: 0.7;
@@ -166,6 +167,7 @@ strong {
 }
 .card-text {
   padding: 1rem;
+  text-transform: capitalize;
 }
 
 .card-title {
